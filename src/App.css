@@ -1,3 +1,22 @@
 *{
   font-family: 'Lora', serif;
 }
+
+header{
+  height: 80vh;
+  background-image: url('./assets/fundo-home.jpg');
+}
+.image-botton-home{
+  background-image: url('./assets/Rectangle.png');
+  height: 10vh;
+}
+
+.image-home{
+  background-image: url('./assets/big-shoes (5).png');
+  background-repeat: no-repeat;
+}
+
+.image-mapa-livro{
+  background-image: url('./assets/mapa-livros.png');
+  background-repeat: no-repeat;
+}
