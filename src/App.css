@@ -3,7 +3,8 @@
 }
 
 header{
-  height: 80vh;
+  height: 500px;
+  background-position: center;
   background-image: url('./assets/fundo-home.jpg');
 }
 .image-botton-home{
