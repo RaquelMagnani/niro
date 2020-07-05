@@ -17,8 +17,8 @@ import {
     const toggle = () => setIsOpen(!isOpen);
   
     return (
-      <div>
-        <Navbar  light expand="md">
+      
+        <Navbar light expand="md">
           <NavbarBrand href="/">Niro</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
@@ -35,7 +35,7 @@ import {
             </Nav>
           </Collapse>
         </Navbar>
-      </div>
+      
     );
   }
   

@@ -1,5 +1,9 @@
 *{
   font-family: 'Lora', serif;
+  
+}
+body{
+  background-color: #efeace;
 }
 
 header{
@@ -12,12 +16,15 @@ header{
   height: 10vh;
 }
 
-.image-home{
-  background-image: url('./assets/big-shoes (5).png');
-  background-repeat: no-repeat;
-}
-
 .image-mapa-livro{
   background-image: url('./assets/mapa-livros.png');
   background-repeat: no-repeat;
+}
+
+.mapa-livro{
+  object-fit: cover;
+  object-position: center; 
+  width: 100%; /* width of container */
+  height: 50% /* height of container */
+    
 }
