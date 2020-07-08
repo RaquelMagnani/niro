@@ -12,7 +12,7 @@ function App() {
       <NavBar />
 
       <header>
-        <div className="container" >
+        <div className="container">
           <div className="row">
             <h1 className="col-md-6 pt-5">
               Para quais países você viaja sem sair de casa?
@@ -25,60 +25,59 @@ function App() {
         <section>
           <div className="container mt-5 mb-5">
             <div className="row align-items-center">
-              <div className="col-md-6"> 
+              <div className="col-md-6">
                 <img className="img-fluid" src={BigShoes} />
-                </div>
-                <div className="col-md-5">
-                  <h2 className="text-center">Já reparou?</h2>
-                  <p className="text-justify">
-                    {" "}
-                    Quando vamos a uma livraria a maioria dos livros de
-                    literatura estrangeira são traduções do inglês para
-                    português... Você já teve a impressão que a grande maioria
-                    são de pessoas dos Estados Unidos ou do Reino Unido? Já
-                    pensou em conhecer um lugar diferente
-                    com um guia local, sem sair de casa? Nossa missão é
-                    apresentar para você outras possibilidades,já que nosso
-                    planeta tem 198 paises e milhares de idiomas. Fizemos uma
-                    pequena curadoria para apresentar escritores e escritoras
-                    das mais diversas regiões.
-                    <br />
-                    Vamos Juntas!
-                  </p>
-                </div>
-              
+              </div>
+              <div className="col-md-5">
+                <h2 className="text-center">Já reparou?</h2>
+                <p className="text-justify">
+                  {" "}
+                  Quando vamos a uma livraria a maioria dos livros de literatura
+                  estrangeira são traduções do inglês para português... Você já
+                  teve a impressão que a grande maioria são de pessoas dos
+                  Estados Unidos ou do Reino Unido? Já pensou em conhecer um
+                  lugar diferente com um guia local, sem sair de casa? Nossa
+                  missão é apresentar para você outras possibilidades,já que
+                  nosso planeta tem 198 paises e milhares de idiomas. Fizemos
+                  uma pequena curadoria para apresentar escritores e escritoras
+                  das mais diversas regiões.
+                  <br />
+                  Vamos Juntas!
+                </p>
+              </div>
             </div>
           </div>
         </section>
         <section>
           <h1 className="text-center m-5">Descubra!</h1>
-
-         {/*} <img src={MapaLivros} className="mapa-livro" />*/}
         </section>
-        <section className="container botoes mb-5">
-          <div>
-            <Button color="primary" className="col-sm-1 col-md-2 mb-1">
-              {" "}
+        <div className="container mb-5 ">
+          <div className="row ">
+          <img src={MapaLivros} className="mapa-livro col-md-10 img-fluid" />
+          
+          <section className=" col-md-2   ">
+            <Button color="primary" className="col-sm-6 col-md-12 ">
               America
             </Button>{" "}
-            <Button color="secondary" className="col-sm-1 col-md-2 mb-1">
+            <Button color="secondary" className="col-sm-6 col-md-12 ">
               Africa
             </Button>{" "}
-            <Button color="success" className="col-sm-1 col-md-2 mb-1">
+             <Button color="success" className="col-sm-6 col-md-12 ">
               Asia
             </Button>{" "}
-            <Button color="info" className="col-sm-1 col-md-2 mb-1">
+            <Button color="info" className="col-sm-6 col-md-12 ">
               Europa
             </Button>{" "}
-            <Button color="warning" className="col-sm-1 col-md-2 mb-1">
+            <Button color="warning" className="col-sm-6 col-md-12 mb-1">
               Oceania
-            </Button>{" "}
-          </div>
-        </section>
+            </Button>{" "}  
+          </section>
+          
+        </div>
+        </div>
       </main>
-      <footer>
-      Feito com amor por Raquel Magnani Pinheiro
-Copyright blabla bla 2020
+      <footer className="footer--design text-center">
+        Feito com amor por Raquel Magnani Pinheiro Copyright blabla bla 2020
       </footer>
     </>
   );
