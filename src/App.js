@@ -5,6 +5,10 @@ import "./App.css";
 
 import NavBar from "./components/molecules/NavBar/NavBar";
 import { Button } from "reactstrap";
+import Tard from "./components/card/Card"
+
+
+
 
 function App() {
   return (
@@ -56,7 +60,7 @@ function App() {
           <img src={MapaLivros} className="mapa-livro col-md-10 img-fluid" />
           
           <section className=" col-md-2   ">
-            <Button color="primary" className="col-sm-6 col-md-12 ">
+            <Button  color="primary" className="col-sm-6 col-md-12 ">
               America
             </Button>{" "}
             <Button color="secondary" className="col-sm-6 col-md-12 ">
@@ -75,6 +79,8 @@ function App() {
           
         </div>
         </div>
+
+        <Tard/>
       </main>
       <footer className="footer--design text-center">
         Feito com amor por Raquel Magnani Pinheiro Copyright blabla bla 2020
