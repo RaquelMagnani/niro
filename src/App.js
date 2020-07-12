@@ -5,9 +5,8 @@ import "./App.css";
 import {Link} from "react-router-dom"
 
 import NavBar from "./components/molecules/NavBar/NavBar";
-import { Button } from "reactstrap";
-import Tard from "./components/card/Card"
-
+import AuthorCard from "./components/AuthorCard/AuthorCard"
+import Asia from "./components/Asia/Asia";
 
 
 
@@ -62,7 +61,8 @@ function App() {
           
           <section className=" col-md-2 d-flex flex-column justify-content-md-between ">
          
-            <Link  className="btn btn-primary btn-lg  ">
+            <Link  className="btn btn-primary btn-lg  "
+            onClick ={()=>console.log('oi')}>
               America
             </Link>{" "}
             <Link  className="btn btn-primary btn-lg  ">
@@ -81,8 +81,8 @@ function App() {
           
         </div>
         </div>
-
-        <Tard/>
+<Asia continent='Asia'/>
+       
       </main>
       <footer className="footer--design text-center">
         Feito com amor por Raquel Magnani Pinheiro Copyright blabla bla 2020

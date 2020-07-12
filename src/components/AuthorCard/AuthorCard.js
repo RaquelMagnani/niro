@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Card, CardTitle, CardText, Row, Col } from "reactstrap";
-import "./card.css";
+import "./authorCard.css";
 //import books from "../../services/api";
 
-class Tard extends Component {
+class AuthorCard extends Component {
   constructor(props) {
     super(props);
     this.state = { books: [] };
@@ -32,4 +32,4 @@ class Tard extends Component {
   }
 }
 
-export default Tard;
+export default AuthorCard;
