@@ -2,6 +2,7 @@ import React from "react";
 import BigShoes from "./assets/big-shoes.png";
 import MapaLivros from "./assets/mapa-livros.png";
 import "./App.css";
+import {Link} from "react-router-dom"
 
 import NavBar from "./components/molecules/NavBar/NavBar";
 import { Button } from "reactstrap";
@@ -59,22 +60,23 @@ function App() {
           <div className="row ">
           <img src={MapaLivros} className="mapa-livro col-md-10 img-fluid" />
           
-          <section className=" col-md-2   ">
-            <Button  color="primary" className="col-sm-6 col-md-12 ">
+          <section className=" col-md-2 d-flex flex-column justify-content-md-between ">
+         
+            <Link  className="btn btn-primary btn-lg  ">
               America
-            </Button>{" "}
-            <Button color="secondary" className="col-sm-6 col-md-12 ">
+            </Link>{" "}
+            <Link  className="btn btn-primary btn-lg  ">
               Africa
-            </Button>{" "}
-             <Button color="success" className="col-sm-6 col-md-12 ">
+            </Link>{" "}
+             <Link  className="btn btn-primary btn-lg  ">
               Asia
-            </Button>{" "}
-            <Button color="info" className="col-sm-6 col-md-12 ">
+            </Link>{" "}
+            <Link className="btn btn-primary btn-lg  ">
               Europa
-            </Button>{" "}
-            <Button color="warning" className="col-sm-6 col-md-12 mb-1">
+            </Link>{" "}
+            <Link  className="btn btn-primary btn-lg  mb-1">
               Oceania
-            </Button>{" "}  
+            </Link>{" "}  
           </section>
           
         </div>
