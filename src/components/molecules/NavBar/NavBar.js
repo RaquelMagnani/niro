@@ -27,7 +27,7 @@ import {
                 <NavLink href="/">Sobre</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/">Descubra</NavLink>
+                <NavLink href="#descubra">Descubra</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/">Colabore</NavLink>

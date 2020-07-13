@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import { Card, CardTitle, CardText, Row, Col } from "reactstrap";
-import './asia.css'
+import {Row} from "reactstrap";
+
+import AuthorCard from '../AuthorCard/AuthorCard'
+import './continentList.css'
 
 const filterContinent = (list,continenteName)=>{
     return list.filter(book=>book.Continente=== continenteName)
 }
-class Asia extends Component {
+class ContinentList extends Component {
     constructor(props) {
       super(props);
       this.state = { authors: [] };
@@ -21,14 +23,10 @@ class Asia extends Component {
       const {continent}= this.props
       
       return (
-        <Row className="container">
+        <Row className="container mt-5">
           {filterContinent(authors,continent).map((book) => (
-            <Col sm="3">
-              <Card className=" card-container" body>
-                <CardTitle>{book.Autor}</CardTitle>
-                <CardText>{book.Pais} </CardText>
-              </Card>
-            </Col>
+            <AuthorCard name={book.Autor} 
+            pais={book.Pais}/>
           ))}
         </Row>
       );
@@ -37,4 +35,4 @@ class Asia extends Component {
 
 
 
-export default Asia;
+export default ContinentList;

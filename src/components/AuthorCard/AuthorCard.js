@@ -1,35 +1,21 @@
-import React, { Component } from "react";
-import { Card, CardTitle, CardText, Row, Col } from "reactstrap";
+import React from "react";
+import { Card, CardTitle, CardText, Col } from "reactstrap";
 import "./authorCard.css";
 //import books from "../../services/api";
 
-class AuthorCard extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { books: [] };
-  }
-  componentDidMount() {
-    fetch("https://viagem-literaria.firebaseio.com/.json")
-      .then((response) => response.json())
-      .then((data) => this.setState({ books: data }));
-  }
-  render() {
-    const { books } = this.state;
-    console.log(books.filter(book=>book.Continente==='Asia'))
-    
+const AuthorCard =(props)=>{
+
     return (
-      <Row className="container">
-        {books.map((book) => (
+      
           <Col sm="3">
             <Card className=" card-container" body>
-              <CardTitle>{book.Autor}</CardTitle>
-              <CardText>{book.Pais} </CardText>
+              <CardTitle>{props.name}</CardTitle>
+              <CardText>{props.pais} </CardText>
             </Card>
           </Col>
-        ))}
-      </Row>
+        
     );
-  }
+
 }
 
 export default AuthorCard;
