@@ -1,12 +1,14 @@
 import React, {Component} from "react";
 import BigShoes from "./assets/big-shoes.png";
 import MapaLivros from "./assets/mapa-livros.png";
+import Footer from "./components/Footer/Footer"
 import "./App.css";
 import {Link} from "react-router-dom"
 
-import NavBar from "./components/molecules/NavBar/NavBar";
+import NavBar from "./components/NavBar/NavBar";
 
 import ContinentList from "./components/ContinentList/ContinentList";
+
 
 
 
@@ -35,7 +37,7 @@ class App extends Component {
           </header>
     
           <main>
-            <section>
+            <section id="sobre">
               <div className="container mt-5 mb-5">
                 <div className="row align-items-center">
                   <div className="col-md-6">
@@ -100,12 +102,12 @@ class App extends Component {
               }
             </div>
             </div>
+              
     
            
           </main>
-          <footer className="footer--design text-center">
-            Feito com amor por Raquel Magnani Pinheiro Copyright blabla bla 2020
-          </footer>
+          <Footer/>
+         
         </>
       );
   }

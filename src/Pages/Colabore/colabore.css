@@ -1,0 +1,17 @@
+body,html{
+    background-image: url('../../assets/fundo-lindo.jpg');
+    height: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MyForm--container{
+    
+    width: 400px;
+    margin-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 55px;
+    
+
+
+}

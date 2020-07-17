@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Row} from "reactstrap";
-
 import AuthorCard from '../AuthorCard/AuthorCard'
 import './continentList.css'
+import DropDown from '../DropDown/DropDown';
 
 const filterContinent = (list,continenteName)=>{
     return list.filter(book=>book.Continente=== continenteName)
@@ -23,12 +23,17 @@ class ContinentList extends Component {
       const {continent}= this.props
       
       return (
+        <>
+        <Row>
+       
+        </Row>
         <Row className="container mt-5">
           {filterContinent(authors,continent).map((book) => (
             <AuthorCard name={book.Autor} 
             pais={book.Pais}/>
           ))}
         </Row>
+        </>
       );
     }
   }

@@ -11,10 +11,7 @@ header{
   background-position: center;
   background-image: url('./assets/fundo-home.jpg');
 }
-.image-botton-home{
-  background-image: url('./assets/Rectangle.png');
-  height: 10vh;
-}
+
 
 .image-mapa-livro{
   background-image: url('./assets/mapa-livros.png');
@@ -29,6 +26,3 @@ header{
     
 }
 
-.footer--design{
-  background-color:rgba(248, 246, 233, 1);
-}
