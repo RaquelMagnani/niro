@@ -9,13 +9,14 @@ const Colabore =()=>{
     return(
         <div>
         <NavBar />
-        <main className='MyForm--container container '>
+        <div className='background'>
+        <main className='MyForm--container container  '>
          
-        <MyForm/>
+        <MyForm />
         
         </main>
-        <Footer/>
-        
+        <Footer className='footer--container'/>
+        </div>
         </div>
         
     )
