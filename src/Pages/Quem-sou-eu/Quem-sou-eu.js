@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
-import Profile from "../../assets/profile.jpeg"
+import Profile from "../../assets/profile1.png"
 import "./quem-sou-eu.css";
 
 const navLinks = [{ description: "Colabore", path: "/colabore" }];
