@@ -25,5 +25,9 @@
     height: 50% /* height of container */
       
   }
+
+  .paragraph--style{
+    line-height:30px ;
+  }
   
   

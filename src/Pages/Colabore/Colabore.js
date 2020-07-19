@@ -1,14 +1,19 @@
 import React from 'react'
 import NavBar from '../../components/NavBar/NavBar';
-import Footer from '../../components/Footer/Footer'
-import MyForm from '../../components/MyForm/MyForm'
-import './colabore.css'
-import { Row,Col } from 'reactstrap';
+import Footer from '../../components/Footer/Footer';
+import MyForm from '../../components/MyForm/MyForm';
+import './colabore.css';
+
+const navLinks = [
+    { description: "Quem sou eu", path: "/quem-sou-eu" },
+  
+  ]
 
 const Colabore =()=>{
     return(
+        
         <div>
-        <NavBar />
+        <NavBar links={navLinks} />
         <div className='background'>
         <main className='MyForm--container container  '>
          
