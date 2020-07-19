@@ -7,7 +7,7 @@ const AuthorCard =(props)=>{
 
     return (
       
-          <Col sm="3">
+          <Col sm="4">
             <Card className=" card-container" body>
               <CardTitle>{props.name}</CardTitle>
               <CardText>{props.pais} </CardText>

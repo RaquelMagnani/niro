@@ -16,15 +16,15 @@ class Home extends Component {
   }
   render() {
     const navLinks = [
-      { description: "Sobre", path: "#sobre" },
+      { description: "Saiba mais", path: "#sobre" },
       { description: "Descubra", path: "#descubra" },
-      { description: "Colabore", path: "/colabore"} ,
-      { description: "Quem sou eu", path: "/quem-sou-eu"}
+      { description: "Colabore", path: "/colabore" },
+      { description: "Quem sou eu", path: "/quem-sou-eu" },
     ];
 
     return (
       <>
-        <NavBar links= {navLinks} />
+        <NavBar links={navLinks} />
 
         <header>
           <div className="container">
@@ -110,10 +110,11 @@ class Home extends Component {
               {this.state.continent !== "" ? (
                 <ContinentList continent={this.state.continent} />
               ) : null}
-              
 
-              <h5 className="mt-5 ">Tem mais alguem para indicar? <Link to ="/colabore">Colabore</Link></h5>
-              
+              <h5 className="mt-5 text-center ">
+                Tem mais alguem para indicar?{" "}
+                <Link to="/colabore">Colabore</Link>
+              </h5>
             </div>
           </div>
         </main>

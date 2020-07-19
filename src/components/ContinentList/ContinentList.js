@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Row} from "reactstrap";
+import {Row, Col} from "reactstrap";
 import AuthorCard from '../AuthorCard/AuthorCard'
 import './continentList.css'
 import DropDown from '../DropDown/DropDown';
@@ -25,9 +25,13 @@ class ContinentList extends Component {
       return (
         <>
         <Row>
-       
-        </Row>
+       <Col md='12'>
+       <h2 className="mt-3" >{continent}</h2>
+       </Col>
+        </Row >
+
         <Row className="container mt-5">
+          
           {filterContinent(authors,continent).map((book) => (
             <AuthorCard name={book.Autor} 
             pais={book.Pais}/>
