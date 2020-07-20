@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import BigShoes from "../../assets/big-shoes.png";
 import MapaLivros from "../../assets/mapa-livros.png";
+import Retangulo from ".."
 import Footer from "../../components/Footer/Footer";
 import "./home.css";
 import { Link } from "react-router-dom";
@@ -19,7 +20,7 @@ class Home extends Component {
       { description: "Saiba mais", path: "#sobre" },
       { description: "Descubra", path: "#descubra" },
       { description: "Colabore", path: "/colabore" },
-      { description: "Quem sou eu", path: "/quem-sou-eu" },
+      { description: "Sobre mim", path: "/quem-sou-eu" },
     ];
 
     return (
@@ -35,6 +36,9 @@ class Home extends Component {
             </div>
           </div>
         </header>
+        <section>
+
+        </section>
 
         <main>
           <section id="sobre">
@@ -75,33 +79,33 @@ class Home extends Component {
                 className="mapa-livro col-md-10 img-fluid"
               />
 
-              <section className="  col-md-2 d-flex flex-column justify-content-md-between ">
+              <section className=" continent--buttons-container  col-md-2 d-flex flex-column justify-content-md-between ">
                 <Link
-                  className="btn btn-primary btn-lg "
+                  className="btn  btn-lg continent--buttons "
                   onClick={() => this.setState({ continent: "America" })}
                 >
                   America
                 </Link>
                 <Link
-                  className="btn btn-primary btn-lg  "
+                  className="btn continent--buttons btn-lg  "
                   onClick={() => this.setState({ continent: "Africa" })}
                 >
                   Africa
                 </Link>{" "}
                 <Link
-                  className="btn btn-primary btn-lg"
+                  className="btn continent--buttons btn-lg"
                   onClick={() => this.setState({ continent: "Asia" })}
                 >
                   Asia
                 </Link>{" "}
                 <Link
-                  className="btn btn-primary btn-lg"
+                  className="btn continent--buttons btn-lg"
                   onClick={() => this.setState({ continent: "Europa" })}
                 >
                   Europa
                 </Link>{" "}
                 <Link
-                  className="btn btn-primary btn-lg mb-1"
+                  className="btn continent--buttons btn-lg mb-1"
                   onClick={() => this.setState({ continent: "Oceania" })}
                 >
                   Oceania

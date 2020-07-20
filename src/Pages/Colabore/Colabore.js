@@ -5,7 +5,7 @@ import MyForm from '../../components/MyForm/MyForm';
 import './colabore.css';
 
 const navLinks = [
-    { description: "Quem sou eu", path: "/quem-sou-eu" },
+    { description: "Sobre mim", path: "/quem-sou-eu" },
   
   ]
 

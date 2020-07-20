@@ -32,16 +32,16 @@ function MyForm() {
       });
   };
   return (
-    <div>
+    <div className="myForm--container text-center">
       <h2>Tem alguma sugestão?</h2>
-      <h2>Colabore!</h2>
-      <form onSubmit={handleOnSubmit}>
-        <label htmlFor="email">Email:</label>
-        <input id="email" type="email" name="email" required />
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
+      <h3>Colabore!</h3>
+      <form className="mt-4 text-center" onSubmit={handleOnSubmit}>
+        <label htmlFor="email">Seu e-mail :</label>
+        <input id="email" type="email" name="email" required /><br/>
+        <label htmlFor="message">Indicações :</label>
+        <textarea id="message" name="message"></textarea><br/>
         <button type="submit" disabled={serverState.submitting}>
-          Submit
+          Enviar
         </button>
         {serverState.status && (
           <p className={!serverState.status.ok ? "errorMsg" : ""}>

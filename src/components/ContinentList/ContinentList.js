@@ -48,7 +48,7 @@ class ContinentList extends Component {
         </Row>
         <Row>
           <Col md="12">
-            <h5 className="mt-5 text-center ">
+            <h5 className="mt-5 text-align-center ">
               Tem mais alguem para indicar? <Link to="/colabore">Colabore</Link>
             </h5>
           </Col>

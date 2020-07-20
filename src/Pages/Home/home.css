@@ -2,9 +2,7 @@
     font-family: 'Lora', serif;
     
   }
-  body{
-    background-color: #efeace;
-  }
+  
   
   header{
     height: 500px;
@@ -30,4 +28,19 @@
     line-height:30px ;
   }
   
+  .continent--buttons{
+    background-color:#b0afb5;
+    color: whitesmoke;
+    
+
+  }
   
+
+  @media only screen and (max-width: 768px) {
+    .continent--buttons-container{
+     
+  margin-top: 10px;
+  justify-content: space-between;
+  height: 300px;
+    }
+  }
