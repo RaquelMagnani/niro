@@ -111,10 +111,7 @@ class Home extends Component {
                 <ContinentList continent={this.state.continent} />
               ) : null}
 
-              <h5 className="mt-5 text-center ">
-                Tem mais alguem para indicar?{" "}
-                <Link to="/colabore">Colabore</Link>
-              </h5>
+              
             </div>
           </div>
         </main>
