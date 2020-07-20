@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import BigShoes from "../../assets/big-shoes.png";
 import MapaLivros from "../../assets/mapa-livros.png";
-import Retangulo from ".."
 import Footer from "../../components/Footer/Footer";
 import "./home.css";
 import { Link } from "react-router-dom";
@@ -31,7 +30,7 @@ class Home extends Component {
           <div className="container">
             <div className="row">
               <h1 className="col-md-6 pt-5">
-                Para quais países você viaja sem sair de casa?
+                trocar esse texto!!!Para quais países você viaja sem sair de casa?
               </h1>
             </div>
           </div>
