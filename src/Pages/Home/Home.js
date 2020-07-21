@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import BigShoes from "../../assets/big-shoes.png";
 import MapaLivros from "../../assets/mapa-livros.png";
 import Footer from "../../components/Footer/Footer";
+import Rectangle from "../../assets/Rectangle.png"
 import "./home.css";
 import { Link } from "react-router-dom";
 
@@ -36,7 +37,7 @@ class Home extends Component {
           </div>
         </header>
         <section>
-
+        <img className="img-fluid" src={Rectangle}/>
         </section>
 
         <main>

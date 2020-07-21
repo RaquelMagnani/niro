@@ -18,7 +18,7 @@ const NavBar = (props) => {
 
   const { links } = props;
   return (
-    <Navbar light expand="md">
+    <Navbar  light expand="md">
       <NavbarBrand href="/">Niro</NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>

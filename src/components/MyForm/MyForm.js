@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./myForm.css"
 
 function MyForm() {
   const [serverState, setServerState] = useState({
@@ -40,7 +41,7 @@ function MyForm() {
         <input id="email" type="email" name="email" required /><br/>
         <label htmlFor="message">Indicações :</label>
         <textarea id="message" name="message"></textarea><br/>
-        <button type="submit" disabled={serverState.submitting}>
+        <button className="button--colabore" type="submit" disabled={serverState.submitting}>
           Enviar
         </button>
         {serverState.status && (

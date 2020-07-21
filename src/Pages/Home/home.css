@@ -1,46 +1,38 @@
-*{
-    font-family: 'Lora', serif;
-    
-  }
-  
-  
-  header{
-    height: 500px;
-    background-position: center;
-    background-image: url('../../assets/fundo-home.jpg');
-  }
-  
-  
-  .image-mapa-livro{
-    background-image: url('../../assets/mapa-livros.png');
-    background-repeat: no-repeat;
-  }
-  
-  .mapa-livro{
-    object-fit: cover;
-    object-position: center; 
-    width: 100%; /* width of container */
-    height: 50% /* height of container */
-      
-  }
+* {
+  font-family: "Lora", serif;
+}
 
-  .paragraph--style{
-    line-height:30px ;
-  }
-  
-  .continent--buttons{
-    background-color:#b0afb5;
-    color: whitesmoke;
-    
+header {
+  height: 500px;
+  background-position: center;
+  background-image: url("../../assets/fundo-home.jpg");
+}
 
-  }
-  
+.image-mapa-livro {
+  background-image: url("../../assets/mapa-livros.png");
+  background-repeat: no-repeat;
+}
 
-  @media only screen and (max-width: 768px) {
-    .continent--buttons-container{
-     
-  margin-top: 10px;
-  justify-content: space-between;
-  height: 300px;
-    }
+.mapa-livro {
+  object-fit: cover;
+  object-position: center;
+  width: 100%; /* width of container */
+  height: 50%; /* height of container */
+}
+
+.paragraph--style {
+  line-height: 30px;
+}
+
+.continent--buttons {
+  background-color: #f7cec1;
+  color: #a9a9a9;
+}
+
+@media only screen and (max-width: 768px) {
+  .continent--buttons-container {
+    margin-top: 10px;
+    justify-content: space-between;
+    height: 300px;
   }
+}
