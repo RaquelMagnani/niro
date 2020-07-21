@@ -32,7 +32,7 @@ const QuemSouEu = () => {
           Unido e quis trazes outras possibilidades! Espero que gostem!{" "}
         </p>
         <section className="text-center mt-5 mb-5">
-          <h3>Me mande um oi </h3>
+          <h3>Me mande um oi :) </h3>
           <a href="https://github.com/RaquelMagnani">GitHub</a> <br />
           <a href="https://www.linkedin.com/in/raquel-magnani-pinheiro/">
             LinKedin
