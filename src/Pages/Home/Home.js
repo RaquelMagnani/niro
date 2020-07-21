@@ -30,7 +30,7 @@ class Home extends Component {
           <div className="container">
             <div className="row">
               <h1 className="col-md-6 pt-5">
-                trocar esse texto!!!Para quais países você viaja sem sair de casa?
+                Para quais países você viaja sem sair de casa?
               </h1>
             </div>
           </div>
