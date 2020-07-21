@@ -3,7 +3,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import Profile from "../../assets/profile1.png";
 import GitHub from "../../assets/github-logo.png";
-import "./quem-sou-eu.css";
+import "./sobreMim.css";
 
 const navLinks = [
   { description: "Home", path: "/" },
@@ -11,7 +11,7 @@ const navLinks = [
   
 ];
 
-const QuemSouEu = () => {
+const SobreMim = () => {
   return (
     <React.Fragment>
       <NavBar links={navLinks} />
@@ -45,4 +45,4 @@ const QuemSouEu = () => {
   );
 };
 
-export default QuemSouEu;
+export default SobreMim;

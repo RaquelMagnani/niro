@@ -6,7 +6,7 @@ import './colabore.css';
 
 const navLinks = [
     { description: "Home", path: "/" },
-    { description: "Sobre mim", path: "/quem-sou-eu" }
+    { description: "Sobre mim", path: "/sobreMim" }
   
   ]
 

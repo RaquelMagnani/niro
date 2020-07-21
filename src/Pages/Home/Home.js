@@ -20,7 +20,7 @@ class Home extends Component {
       { description: "Saiba mais", path: "#sobre" },
       { description: "Descubra", path: "#descubra" },
       { description: "Colabore", path: "/colabore" },
-      { description: "Sobre mim", path: "/quem-sou-eu" },
+      { description: "Sobre mim", path: "/sobreMim" },
     ];
 
     return (
