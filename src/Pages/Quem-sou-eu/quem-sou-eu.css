@@ -1,6 +1,11 @@
+.header--container{
+    background-image: url('../../assets/background-profile.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
 .profile--img{
     border-radius: 50%;
-    
     width: 250px;
 }
 

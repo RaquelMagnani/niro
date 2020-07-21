@@ -12,15 +12,19 @@ const navLinks = [{ description: "Colabore", path: "/colabore" }];
 const QuemSouEu = () => {
   return <React.Fragment>
       <NavBar links={navLinks}/>
-      <main className="main--container text-center mt-5 mb-5">
-      <img className="profile--img img-fluid justify-content" src={Profile}/>
+      <header className="header--container text-center">
+      <img className="profile--img img-fluid mt-5" src={Profile}/>
+
+      </header>
+      <main> 
+      
       <p className=" profile--paragraph mt-5 mx-5 px-5 text-center">Olá! Eu sou a <strong>Raquel</strong>, moro em São Bernardo do Campo-São Paulo com minha esposa e meus dois gatos Julieta e Cisco. 
-Da curiosidade em tecnologia e da necessidade de me reinventar profissionalmente veio a ideia de entrar no Reprograma e começar uma nova carreira, e aqui estou eu! :)
-Niro nasceu do meu amor por livros,  e incomodo de ver que a maioria dos livros que temos acesso são de autores dos Estados Unidos ou Reino Unido e quis trazes outras possibilidades!<br/>
+Da curiosidade em tecnologia e da necessidade de me reinventar profissionalmente veio a ideia de entrar no Reprograma e começar uma nova carreira, e aqui estou eu! :)<br/>
+Niro nasceu do meu amor por livros,  e incomodo de ver que a maioria dos livros que temos acesso são de autores dos Estados Unidos ou Reino Unido e quis trazes outras possibilidades!
 
 Espero que gostem! </p>
-<section>
-  <p>Me mande um oi </p>
+<section className="text-center">
+  <h5>Me mande um oi </h5>
 <a href="https://github.com/RaquelMagnani">GitHub</a> <br/>
 <a href="https://www.linkedin.com/in/raquel-magnani-pinheiro/" >LinKedin</a>
   

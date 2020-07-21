@@ -27,7 +27,7 @@ class Home extends Component {
       <>
         <NavBar links={navLinks} />
 
-        <header>
+        <header className="container-header">
           <div className="container">
             <div className="row">
               <h1 className="col-md-6 pt-5">
@@ -57,12 +57,12 @@ class Home extends Component {
                     são de pessoas dos Estados Unidos ou do Reino Unido? Já
                     pensou em conhecer um lugar diferente com um guia local, sem
                     sair de casa? Nossa missão é apresentar para você outras
-                    possibilidades,já que nosso planeta tem 198 paises e
+                    possibilidades ,já que nosso planeta tem 198 paises e
                     milhares de idiomas. Fizemos uma pequena curadoria para
                     apresentar escritores e escritoras das mais diversas
                     regiões.
                     <br />
-                    Vamos Juntas!
+                    <strong>Vamos Juntas!</strong>
                   </p>
                 </div>
               </div>

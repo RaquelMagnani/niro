@@ -2,7 +2,7 @@
   font-family: "Lora", serif;
 }
 
-header {
+.container-header {
   height: 500px;
   background-position: center;
   background-image: url("../../assets/fundo-home.jpg");
