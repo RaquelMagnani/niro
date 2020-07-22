@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import Profile from "../../assets/profile1.png";
-//import GitHub from "../../assets/github-logo.png";
 import "./sobreMim.css";
 
 const navLinks = [
@@ -16,7 +15,7 @@ const SobreMim = () => {
       <NavBar links={navLinks} />
       <header className="header--container text-center">
         <img className="profile--img img-fluid mt-5" src={Profile} />
-        <h1 className="mt-3 titleLink--style">Sobre a Autora</h1>
+        <h1 className="mt-3 title--style">Sobre a Autora</h1>
       </header>
       <main>
         <p className=" profile--paragraph mt-5 mx-md-5 px-5 text-center">
@@ -30,13 +29,13 @@ const SobreMim = () => {
           dos livros que temos acesso são de autores dos Estados Unidos ou Reino
           Unido e quis trazer outras possibilidades! Espero que gostem!{" "}
         </p>
-        <section className="text-center mt-5 mb-5 titleLink--style">
+        <section className="text-center mt-5 mb-5 ">
           <h3 className="mb-2">Me mande um oi :) </h3>
-          <a  href="https://github.com/RaquelMagnani">
+          <a className="a--style" href="https://github.com/RaquelMagnani">
             GitHub
           </a>{" "}
           <br />
-          <a href="https://www.linkedin.com/in/raquel-magnani-pinheiro/">
+          <a className="a--style" href="https://www.linkedin.com/in/raquel-magnani-pinheiro/">
             LinKedin
           </a>
         </section>
