@@ -20,7 +20,7 @@ const SobreMim = () => {
         <h1 className="mt-3 title--style">Sobre a Autora</h1>
       </header>
       <main>
-        <p className=" profile--paragraph mt-5 mx-5 px-5 text-center">
+        <p className=" profile--paragraph mt-5 mx-md-5 px-5 text-center">
           Olá! Eu sou a <strong>Raquel</strong>, moro em São Bernardo do
           Campo-São Paulo com minha esposa e meus dois gatos Julieta e Cisco. Da
           curiosidade em tecnologia e da necessidade de me reinventar
