@@ -29,7 +29,7 @@ class Home extends Component {
         <header className="container-header">
           <div className="container">
             <div className="row">
-              <h1 className="title--style col-md-6 pt-5">
+              <h1 className="home-title--style col-md-6 pt-5">
                 Para quais países você viaja sem sair de casa?
               </h1>
             </div>
