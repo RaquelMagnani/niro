@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import BigShoes from "../../assets/big-shoes.png";
 import MapaLivros from "../../assets/mapa-livros.png";
 import Footer from "../../components/Footer/Footer";
-import Rectangle from "../../assets/Rectangle.png"
+import Rectangle from "../../assets/Rectangle.png";
 import "./home.css";
 
 import NavBar from "../../components/NavBar/NavBar";
@@ -29,14 +29,14 @@ class Home extends Component {
         <header className="container-header">
           <div className="container">
             <div className="row">
-              <h1 className="col-md-6 pt-5">
+              <h1 className="title--style col-md-6 pt-5">
                 Para quais países você viaja sem sair de casa?
               </h1>
             </div>
           </div>
         </header>
         <section>
-        <img className="img-fluid" src={Rectangle}/>
+          <img className="img-fluid" src={Rectangle} />
         </section>
 
         <main>
@@ -56,7 +56,7 @@ class Home extends Component {
                     são de pessoas dos Estados Unidos ou do Reino Unido? Já
                     pensou em conhecer um lugar diferente com um guia local, sem
                     sair de casa? Nossa missão é apresentar para você outras
-                    possibilidades ,já que nosso planeta tem 198 países e
+                    possibilidades, já que nosso planeta tem 198 países e
                     milhares de idiomas. Fizemos uma pequena curadoria para
                     apresentar escritores e escritoras das mais diversas
                     regiões.
@@ -79,31 +79,36 @@ class Home extends Component {
               />
 
               <section className=" continent--buttons-container  col-md-2 d-flex flex-column justify-content-md-between ">
-                <a href="#authorCards"
+                <a
+                  href="#authorCards"
                   className="btn  continent--buttons btn-lg  "
                   onClick={() => this.setState({ continent: "America" })}
                 >
                   America
                 </a>
-                <a href="#authorCards"
+                <a
+                  href="#authorCards"
                   className="btn continent--buttons btn-lg  "
                   onClick={() => this.setState({ continent: "Africa" })}
                 >
                   Africa
                 </a>{" "}
-                <a href="#authorCards"
+                <a
+                  href="#authorCards"
                   className="btn continent--buttons btn-lg"
                   onClick={() => this.setState({ continent: "Asia" })}
                 >
                   Asia
                 </a>{" "}
-                <a href="#authorCards"
+                <a
+                  href="#authorCards"
                   className="btn continent--buttons btn-lg"
                   onClick={() => this.setState({ continent: "Europa" })}
                 >
                   Europa
                 </a>{" "}
-                <a href="#authorCards"
+                <a
+                  href="#authorCards"
                   className="btn continent--buttons btn-lg mb-1"
                   onClick={() => this.setState({ continent: "Oceania" })}
                 >
@@ -111,11 +116,10 @@ class Home extends Component {
                 </a>{" "}
               </section>
               <div id="authorCards">
-              {this.state.continent !== "" ? (
-                <ContinentList  continent={this.state.continent} />
-              ) : null}
+                {this.state.continent !== "" ? (
+                  <ContinentList continent={this.state.continent} />
+                ) : null}
               </div>
-              
             </div>
           </div>
         </main>

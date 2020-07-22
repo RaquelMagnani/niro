@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./myForm.css"
+import "./myForm.css";
 
 function MyForm() {
   const [serverState, setServerState] = useState({
@@ -34,14 +34,20 @@ function MyForm() {
   };
   return (
     <div className="myForm--container text-center ">
-      <h2>Tem alguma sugestão? </h2>
-        <h2>Colabore!</h2>
+      <h2>Conhece mais alguém ? </h2>
+      <h3>Envie sua indicação</h3>
       <form className="mt-4 text-center" onSubmit={handleOnSubmit}>
         <label htmlFor="email">Seu e-mail :</label>
-        <input id="email" type="email" name="email" required /><br/>
+        <input id="email" type="email" name="email" required />
+        <br />
         <label htmlFor="message">Indicações :</label>
-        <textarea id="message" name="message"></textarea><br/>
-        <button className="button--colabore" type="submit" disabled={serverState.submitting}>
+        <textarea id="message" name="message"></textarea>
+        <br />
+        <button
+          className="button--colabore"
+          type="submit"
+          disabled={serverState.submitting}
+        >
           Enviar
         </button>
         {serverState.status && (

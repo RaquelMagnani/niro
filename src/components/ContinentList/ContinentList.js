@@ -35,7 +35,7 @@ class ContinentList extends Component {
 
     return (
       <>
-        <Row>
+        <Row className="container">
           <Col md="12">
             <h1 className="mt-5">{continent}</h1>
           </Col>
@@ -46,10 +46,13 @@ class ContinentList extends Component {
             <AuthorCard name={book.Autor} pais={book.Pais} />
           ))}
         </Row>
-        <Row>
+        <Row className="container">
           <Col md="12">
             <h5 className="mt-5 text-align-center ">
-              Tem mais alguem para indicar? <Link className="link--container" to="/colabore">Colabore</Link>
+              Conhece mais alguém para indicar?{" "}
+              <Link className="link--container" to="/colabore">
+                Colabore
+              </Link>
             </h5>
           </Col>
         </Row>

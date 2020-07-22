@@ -32,8 +32,6 @@
 .continent--buttons:hover {
   color: #a9a9a9;
   text-decoration: none;
-  
-  
 }
 
 @media only screen and (max-width: 768px) {
@@ -41,5 +39,8 @@
     margin-top: 10px;
     justify-content: space-between;
     height: 300px;
+  }
+  .title--style {
+    font-size: 34px;
   }
 }
