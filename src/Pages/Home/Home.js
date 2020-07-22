@@ -57,12 +57,12 @@ class Home extends Component {
                     são de pessoas dos Estados Unidos ou do Reino Unido? Já
                     pensou em conhecer um lugar diferente com um guia local, sem
                     sair de casa? Nossa missão é apresentar para você outras
-                    possibilidades ,já que nosso planeta tem 198 paises e
+                    possibilidades ,já que nosso planeta tem 198 países e
                     milhares de idiomas. Fizemos uma pequena curadoria para
                     apresentar escritores e escritoras das mais diversas
                     regiões.
                     <br />
-                    <strong>Vamos Juntas!</strong>
+                    <strong>Vamos Juntas?!</strong>
                   </p>
                 </div>
               </div>
@@ -80,41 +80,42 @@ class Home extends Component {
               />
 
               <section className=" continent--buttons-container  col-md-2 d-flex flex-column justify-content-md-between ">
-                <Link
-                  className="btn  btn-lg continent--buttons "
+                <a href="#authorCards"
+                  className="btn  continent--buttons btn-lg  "
                   onClick={() => this.setState({ continent: "America" })}
                 >
                   America
-                </Link>
-                <Link
+                </a>
+                <a href="#authorCards"
                   className="btn continent--buttons btn-lg  "
                   onClick={() => this.setState({ continent: "Africa" })}
                 >
                   Africa
-                </Link>{" "}
-                <Link
+                </a>{" "}
+                <a href="#authorCards"
                   className="btn continent--buttons btn-lg"
                   onClick={() => this.setState({ continent: "Asia" })}
                 >
                   Asia
-                </Link>{" "}
-                <Link
+                </a>{" "}
+                <a href="#authorCards"
                   className="btn continent--buttons btn-lg"
                   onClick={() => this.setState({ continent: "Europa" })}
                 >
                   Europa
-                </Link>{" "}
-                <Link
+                </a>{" "}
+                <a href="#authorCards"
                   className="btn continent--buttons btn-lg mb-1"
                   onClick={() => this.setState({ continent: "Oceania" })}
                 >
                   Oceania
-                </Link>{" "}
+                </a>{" "}
               </section>
+              <div id="authorCards">
               {this.state.continent !== "" ? (
-                <ContinentList continent={this.state.continent} />
+                <ContinentList  continent={this.state.continent} />
               ) : null}
-
+              </div>
               
             </div>
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import Profile from "../../assets/profile1.png";
-import GitHub from "../../assets/github-logo.png";
+//import GitHub from "../../assets/github-logo.png";
 import "./sobreMim.css";
 
 const navLinks = [
@@ -29,7 +29,7 @@ const SobreMim = () => {
           <br />
           Niro nasceu do meu amor por livros, e incomodo de ver que a maioria
           dos livros que temos acesso são de autores dos Estados Unidos ou Reino
-          Unido e quis trazes outras possibilidades! Espero que gostem!{" "}
+          Unido e quis trazer outras possibilidades! Espero que gostem!{" "}
         </p>
         <section className="text-center mt-5 mb-5">
           <h3>Me mande um oi :) </h3>

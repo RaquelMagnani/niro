@@ -26,7 +26,14 @@
 
 .continent--buttons {
   background-color: #f7cec1;
+  color: #212529;
+}
+
+.continent--buttons:hover {
   color: #a9a9a9;
+  text-decoration: none;
+  
+  
 }
 
 @media only screen and (max-width: 768px) {
