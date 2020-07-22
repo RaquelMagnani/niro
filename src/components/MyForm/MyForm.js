@@ -33,9 +33,9 @@ function MyForm() {
       });
   };
   return (
-    <div className="myForm--container text-center">
-      <h2>Tem alguma sugestão?</h2>
-      <h3>Colabore!</h3>
+    <div className="myForm--container text-center ">
+      <h2>Tem alguma sugestão? </h2>
+        <h2>Colabore!</h2>
       <form className="mt-4 text-center" onSubmit={handleOnSubmit}>
         <label htmlFor="email">Seu e-mail :</label>
         <input id="email" type="email" name="email" required /><br/>

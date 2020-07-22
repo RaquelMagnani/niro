@@ -1,22 +1,25 @@
-.background{
-  background-image: url('../../assets/fundo-lindo.jpg');
-  height: 100%; 
+.background {
+  background-image: url("../../assets/fundo-lindo.jpg");
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.MyForm--container{
-    height: 600px;
-    width: 400px;
-    margin-right: 150px;
-    padding-top: 100px;
-    padding-bottom: 55px;
-    
+.MyForm--container {
+  display: flex;
+
+  justify-content: flex-end;
+  height: 100vh;
+  margin-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 55px;
 }
 
-@media only screen and (max-width: 768px) {
-  .background{
+@media only screen and (max-width: 1024px) {
+  .background {
     background-position: right;
   }
+  .MyForm--container {
+    margin-right: 20px;
+  }
 }
-

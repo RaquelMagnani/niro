@@ -1,4 +1,6 @@
+.footer--design {
+  background-color: rgba(248, 246, 233, 1);
 
-.footer--design{
-    background-color:rgba(248, 246, 233, 1);
-  }
+  bottom: 0;
+  width: 100%;
+}

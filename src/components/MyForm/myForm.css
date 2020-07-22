@@ -1,5 +1,13 @@
-.button--colabore{
-    background-color:#f7cec1 ;
-    color: 	#363636;
-    border-radius: 6px;
+.button--colabore {
+  background-color: #f7cec1;
+  color: #363636;
+  border-radius: 6px;
+}
+.myForm--container {
+}
+
+@media only screen and (max-width: 768px) {
+  .background {
+    background-position: right;
+  }
 }

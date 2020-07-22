@@ -4,7 +4,6 @@ import MapaLivros from "../../assets/mapa-livros.png";
 import Footer from "../../components/Footer/Footer";
 import Rectangle from "../../assets/Rectangle.png"
 import "./home.css";
-import { Link } from "react-router-dom";
 
 import NavBar from "../../components/NavBar/NavBar";
 

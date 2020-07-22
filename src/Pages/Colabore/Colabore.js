@@ -16,7 +16,7 @@ const Colabore =()=>{
         <div>
         <NavBar links={navLinks} />
         <div className='background'>
-        <main className='MyForm--container container  '>
+        <main className='MyForm--container'>
          
         <MyForm />
         
