@@ -75,10 +75,10 @@ class Home extends Component {
             <div className="row ">
               <img
                 src={MapaLivros}
-                className="mapa-livro col-md-10 img-fluid"
+                className="mapa-livro col-md-9 img-fluid"
               />
 
-              <section className=" continent--buttons-container  col-md-2 d-flex flex-column justify-content-md-between ">
+              <section className=" continent--buttons-container  col-md-3 d-flex flex-column justify-content-md-between ">
                 <a
                   href="#authorCards"
                   className="btn  continent--buttons btn-lg  "
