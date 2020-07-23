@@ -5,6 +5,7 @@
 .container-header {
   height: 500px;
   background-position: center;
+  
   background-image: url("../../assets/fundo-home.jpg");
 }
 
@@ -32,6 +33,9 @@
 .continent--buttons:hover {
   color: #a9a9a9;
   text-decoration: none;
+}
+.img--rectangule{
+  width: 100vw;
 }
 
 @media only screen and (max-width: 768px) {

@@ -37,7 +37,7 @@ class Home extends Component {
           </div>
         </header>
         <section>
-          <img className="img-fluid" src={Rectangle} alt="imagem de um retângulo rosa"/>
+          <img className="img-fluid img--rectangule" src={Rectangle} alt="imagem de um retângulo rosa"/>
         </section>
 
         <main>
