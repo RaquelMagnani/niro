@@ -29,6 +29,7 @@ class Home extends Component {
         <header className="container-header">
           <div className="container">
             <div className="row">
+            <div aria-label="ilustração de uma mulher sentada em uma pilha de livros lendo e um vaso na direita da imagem"></div>
               <h1 className="home-title--style col-md-6 pt-5">
                 Para quais países você viaja sem sair de casa?
               </h1>
@@ -36,7 +37,7 @@ class Home extends Component {
           </div>
         </header>
         <section>
-          <img className="img-fluid" src={Rectangle} />
+          <img className="img-fluid" src={Rectangle} alt="imagem de um retângulo rosa"/>
         </section>
 
         <main>
@@ -44,7 +45,7 @@ class Home extends Component {
             <div className="container mt-5 mb-5">
               <div className="row align-items-center">
                 <div className="col-md-6">
-                  <img className="img-fluid" src={BigShoes} />
+                  <img className="img-fluid" src={BigShoes} alt="ilustração de uma mulher em pé apontando para o lado direito da tela"/>
                 </div>
                 <div className="col-md-5">
                   <h2 className="text-center">Já reparou?</h2>
@@ -76,6 +77,7 @@ class Home extends Component {
               <img
                 src={MapaLivros}
                 className="mapa-livro col-md-9 img-fluid"
+                alt="ilustração do mapa mundi com livros"
               />
 
               <section className=" continent--buttons-container  col-md-3 d-flex flex-column justify-content-md-between ">

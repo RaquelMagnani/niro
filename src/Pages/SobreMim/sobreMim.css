@@ -18,9 +18,15 @@
 
     color:#89889a ;
 }
-.a--style{
-    color:#89889a;
-    font-size: 18px;
+
+.img--icons{
+    width: 100px;
+    height: 100px;
 }
 
-
+@media only screen and (max-width: 768px){
+    .container--icons{
+    display: flex;
+    flex-direction: column;
+    }
+}
