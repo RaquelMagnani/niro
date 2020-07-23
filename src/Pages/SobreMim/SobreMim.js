@@ -42,11 +42,12 @@ const SobreMim = () => {
               <img className="img--icons" src={GitHub} alt="logo do Github" />
             </a>
 
-            <a
-              
-              href="https://www.linkedin.com/in/raquel-magnani-pinheiro/"
-            >
-              <img className="img--icons" src={LinKedin} alt="logo do Linkedin" />
+            <a href="https://www.linkedin.com/in/raquel-magnani-pinheiro/" target="blank">
+              <img
+                className="img--icons"
+                src={LinKedin}
+                alt="logo do Linkedin"
+              />
             </a>
           </div>
         </section>
