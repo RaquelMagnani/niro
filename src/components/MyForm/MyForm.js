@@ -38,7 +38,7 @@ function MyForm() {
       });
   };
   return (
-    <div className="pl-2">
+    <div >
       <h2>Conhece mais alguém ? </h2>
       <h3 className="mb-5">Envie sua indicação</h3>
       <Form onSubmit={handleOnSubmit}>

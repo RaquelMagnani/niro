@@ -3,8 +3,6 @@
   color: #363636;
   border-radius: 6px;
 }
-.myForm--container {
-}
 
 @media only screen and (max-width: 768px) {
   .background {
