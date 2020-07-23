@@ -86,7 +86,7 @@ class Home extends Component {
                   className="btn  continent--buttons btn-lg  "
                   onClick={() => this.setState({ continent: "America" })}
                 >
-                  America
+                  América
                 </a>
                 <a
                   href="#authorCards"

@@ -42,8 +42,9 @@ class ContinentList extends Component {
         </Row>
 
         <Row className="container mt-5">
-          {filterContinent(authors, continent).map((book) => (
-            <AuthorCard name={book.Autor} pais={book.Pais} />
+          {filterContinent(authors, continent).map((item) => (
+            <AuthorCard name={item.Autor} pais={item.Pais} 
+            color={item.Continente} />
           ))}
         </Row>
         <Row className="container">

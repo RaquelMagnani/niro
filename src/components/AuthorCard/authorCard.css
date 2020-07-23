@@ -1,5 +1,20 @@
-.card-container{
-    border-radius: 6px;
-    border-left: 6px solid #64afa6;
-    margin-bottom: 10px;
+.card-container {
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.America {
+  border-left: 6px solid #418c7e;
+}
+.Africa{
+    border-left:6px solid #cd4324;
+}
+.Asia{
+    border-left:6px solid #e2a144;
+}
+.Europa{
+    border-left: 6px solid #432b27;
+}
+.Oceania{
+    border-left: 6px solid #63cd9f;    
 }
