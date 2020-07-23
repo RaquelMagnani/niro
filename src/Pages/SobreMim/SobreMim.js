@@ -36,7 +36,7 @@ const SobreMim = () => {
           </a>{" "}
           <br />
           <a className="a--style" href="https://www.linkedin.com/in/raquel-magnani-pinheiro/">
-            LinKedin
+            LinkedIn
           </a>
         </section>
       </main>
