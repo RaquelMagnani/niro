@@ -1,3 +1,7 @@
 .link--container{
-    color:	#808080
+    color:	#212529;
+    text-decoration: none !important;  
+}
+.link--container:hover{
+    color:#a9a9a9;
 }
